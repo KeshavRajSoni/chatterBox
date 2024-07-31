@@ -1,0 +1,12 @@
+.container {
+  height: 10vh;
+}
+
+.headerleft {
+  background-color: rebeccapurple;
+  float: right;
+}
+.headerright {
+  background-color: palevioletred;
+  float: left;
+}

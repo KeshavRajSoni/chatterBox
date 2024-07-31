@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  flex-grow: 1;
+}
+
+.header {
+  flex-shrink: 0;
+}
+
+.footer {
+  flex-shrink: 0;
+}
+
+.first,
+.second {
+  width: 20%;
+  background-color: #e23e57;
+  padding: 10px;
+}
+
+.wrappedComponent {
+  flex-grow: 1;
+  background-color: #311d3f;
+  padding: 10px;
+}
